@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Красота в деталях",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Мы верим, что настоящий уют рождается из мелочей: правильно подобранная ткань, точный крой, гармоничный цвет — всё имеет значение.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Индивидуальный подход",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Каждый клиент уникален. Мы слушаем, советуем и создаём именно то, что впишется в ваш стиль и подчеркнёт характер вашего пространства.",
   },
   {
-    title: "Естественная динамика",
+    title: "Качество без компромиссов",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Используем только проверенные материалы от надёжных поставщиков. Наши шторы и текстиль служат годами, не теряя вида.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Забота о каждом доме",
+    description: "От замера до установки — мы сопровождаем весь процесс. Вам остаётся только наслаждаться результатом.",
   },
 ]
 
@@ -55,16 +55,16 @@ export function Philosophy() {
           <div className="lg:sticky lg:top-32 lg:self-start">
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Текстиль с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>характером</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/51c497b7-3bb1-4092-a9fb-5ae529ca761f/files/e7c91ed0-a091-463e-aff7-295c5f6a6faa.jpg"
+                alt="Шоурум салона текстиля"
+                className="opacity-90 relative z-10 w-full rounded-sm"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Шторы, обои и декор — это не просто отделка. Это настроение вашего дома. Мы создаём интерьеры, в которых хочется проводить время.
             </p>
 
             {philosophyItems.map((item, index) => (
